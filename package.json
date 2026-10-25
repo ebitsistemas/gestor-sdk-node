@@ -1,0 +1,21 @@
+{
+  "name": "@ebitsistemas/gestor-integrado-sdk",
+  "version": "1.0.1",
+  "description": "SDK em Node.js da API do Gestor Integrado (cadastros, vendas, compras, ordens de serviço, financeiro, estoque e notas fiscais).",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src", "recursos", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["gestor integrado", "erp", "api", "sdk"],
+  "license": "MIT"
+}

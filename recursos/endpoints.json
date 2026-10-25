@@ -1,0 +1,5364 @@
+[
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "GET",
+        "caminho": "parceiros/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "GET",
+        "caminho": "parceiros/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "GET",
+        "caminho": "parceiros/{parceiro}/historico",
+        "acao": "historico",
+        "descricao": "Historico",
+        "grava": false,
+        "parametros": [
+            "parceiro"
+        ]
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "GET",
+        "caminho": "parceiros",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "POST",
+        "caminho": "parceiros",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "GET",
+        "caminho": "parceiros/{parceiro}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "parceiro"
+        ]
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "PUT",
+        "caminho": "parceiros/{parceiro}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "parceiro"
+        ]
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "PATCH",
+        "caminho": "parceiros/{parceiro}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "parceiro"
+        ]
+    },
+    {
+        "grupo": "parceiros",
+        "titulo": "Parceiros (clientes e fornecedores)",
+        "metodo": "DELETE",
+        "caminho": "parceiros/{parceiro}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "parceiro"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/insumos",
+        "acao": "insumos",
+        "descricao": "Insumos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "POST",
+        "caminho": "produtos/{produto}/estoque",
+        "acao": "estoque",
+        "descricao": "Estoque",
+        "grava": true,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/{produto}/historico",
+        "acao": "historico",
+        "descricao": "Historico",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/{produto}/historico-precos",
+        "acao": "historico-precos",
+        "descricao": "Historico precos",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "POST",
+        "caminho": "produtos/{produto}/limite-extra",
+        "acao": "limite-extra",
+        "descricao": "Limite extra",
+        "grava": true,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "POST",
+        "caminho": "produtos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "GET",
+        "caminho": "produtos/{produto}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "PUT",
+        "caminho": "produtos/{produto}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "PATCH",
+        "caminho": "produtos/{produto}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "produtos",
+        "titulo": "Produtos e estoque",
+        "metodo": "DELETE",
+        "caminho": "produtos/{produto}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "GET",
+        "caminho": "servicos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "GET",
+        "caminho": "servicos/{servico}/historico",
+        "acao": "historico",
+        "descricao": "Historico",
+        "grava": false,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "GET",
+        "caminho": "servicos/{servico}/historico-precos",
+        "acao": "historico-precos",
+        "descricao": "Historico precos",
+        "grava": false,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "GET",
+        "caminho": "servicos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "POST",
+        "caminho": "servicos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "GET",
+        "caminho": "servicos/{servico}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "PUT",
+        "caminho": "servicos/{servico}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "PATCH",
+        "caminho": "servicos/{servico}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "servicos",
+        "titulo": "Serviços",
+        "metodo": "DELETE",
+        "caminho": "servicos/{servico}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "servico"
+        ]
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "GET",
+        "caminho": "categorias/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "POST",
+        "caminho": "categorias/{categoria}/mover",
+        "acao": "mover",
+        "descricao": "Mover",
+        "grava": true,
+        "parametros": [
+            "categoria"
+        ]
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "GET",
+        "caminho": "categorias",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "POST",
+        "caminho": "categorias",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "GET",
+        "caminho": "categorias/{categoria}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "categoria"
+        ]
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "PUT",
+        "caminho": "categorias/{categoria}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "categoria"
+        ]
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "PATCH",
+        "caminho": "categorias/{categoria}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "categoria"
+        ]
+    },
+    {
+        "grupo": "categorias",
+        "titulo": "Categorias",
+        "metodo": "DELETE",
+        "caminho": "categorias/{categoria}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "categoria"
+        ]
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "GET",
+        "caminho": "grupos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "GET",
+        "caminho": "grupos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "POST",
+        "caminho": "grupos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "GET",
+        "caminho": "grupos/{grupo}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "grupo"
+        ]
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "PUT",
+        "caminho": "grupos/{grupo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "grupo"
+        ]
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "PATCH",
+        "caminho": "grupos/{grupo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "grupo"
+        ]
+    },
+    {
+        "grupo": "grupos",
+        "titulo": "Grupos",
+        "metodo": "DELETE",
+        "caminho": "grupos/{grupo}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "grupo"
+        ]
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "GET",
+        "caminho": "unidades",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "POST",
+        "caminho": "unidades",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "GET",
+        "caminho": "unidades/{unidade}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "unidade"
+        ]
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "PUT",
+        "caminho": "unidades/{unidade}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "unidade"
+        ]
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "PATCH",
+        "caminho": "unidades/{unidade}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "unidade"
+        ]
+    },
+    {
+        "grupo": "unidades",
+        "titulo": "Unidades",
+        "metodo": "DELETE",
+        "caminho": "unidades/{unidade}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "unidade"
+        ]
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "GET",
+        "caminho": "variacoes/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "GET",
+        "caminho": "variacoes",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "POST",
+        "caminho": "variacoes",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "GET",
+        "caminho": "variacoes/{variacao}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "variacao"
+        ]
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "PUT",
+        "caminho": "variacoes/{variacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "variacao"
+        ]
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "PATCH",
+        "caminho": "variacoes/{variacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "variacao"
+        ]
+    },
+    {
+        "grupo": "variacoes",
+        "titulo": "Variações",
+        "metodo": "DELETE",
+        "caminho": "variacoes/{variacao}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "variacao"
+        ]
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "GET",
+        "caminho": "grupos-impressao/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "GET",
+        "caminho": "grupos-impressao",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "POST",
+        "caminho": "grupos-impressao",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "GET",
+        "caminho": "grupos-impressao/{grupoImpressao}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "grupoImpressao"
+        ]
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "PUT",
+        "caminho": "grupos-impressao/{grupoImpressao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "grupoImpressao"
+        ]
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "PATCH",
+        "caminho": "grupos-impressao/{grupoImpressao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "grupoImpressao"
+        ]
+    },
+    {
+        "grupo": "grupos-impressao",
+        "titulo": "Grupos de impressão",
+        "metodo": "DELETE",
+        "caminho": "grupos-impressao/{grupoImpressao}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "grupoImpressao"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/kanban",
+        "acao": "kanban",
+        "descricao": "Kanban",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/frete",
+        "acao": "frete",
+        "descricao": "Frete",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/calcular",
+        "acao": "calcular",
+        "descricao": "Calcular",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/{venda}/aprovar",
+        "acao": "aprovar",
+        "descricao": "Aprovar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/{venda}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/{venda}/comprovante-entrega",
+        "acao": "comprovante-entrega",
+        "descricao": "Comprovante entrega",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/{venda}/cupom",
+        "acao": "cupom",
+        "descricao": "Cupom",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/{venda}/impressao",
+        "acao": "impressao",
+        "descricao": "Impressao",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/{venda}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "PUT",
+        "caminho": "vendas/{venda}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "PATCH",
+        "caminho": "vendas/{venda}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/{venda}/notafiscal",
+        "acao": "notafiscal",
+        "descricao": "Notafiscal",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "GET",
+        "caminho": "vendas/{venda}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "vendas",
+        "titulo": "Vendas",
+        "metodo": "POST",
+        "caminho": "vendas/{venda}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/kanban",
+        "acao": "kanban",
+        "descricao": "Kanban",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras/calcular",
+        "acao": "calcular",
+        "descricao": "Calcular",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras/{compra}/aprovar",
+        "acao": "aprovar",
+        "descricao": "Aprovar",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras/{compra}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/{compra}/impressao",
+        "acao": "impressao",
+        "descricao": "Impressao",
+        "grava": false,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/{compra}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "PUT",
+        "caminho": "compras/{compra}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "PATCH",
+        "caminho": "compras/{compra}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras/{compra}/notafiscal",
+        "acao": "notafiscal",
+        "descricao": "Notafiscal",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "GET",
+        "caminho": "compras/{compra}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "compras",
+        "titulo": "Compras",
+        "metodo": "POST",
+        "caminho": "compras/{compra}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "compra"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/kanban",
+        "acao": "kanban",
+        "descricao": "Kanban",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/equipamentos",
+        "acao": "equipamentos",
+        "descricao": "Equipamentos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/agenda",
+        "acao": "agenda",
+        "descricao": "Agenda",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/indicadores",
+        "acao": "indicadores",
+        "descricao": "Indicadores",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/calcular",
+        "acao": "calcular",
+        "descricao": "Calcular",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/aprovar",
+        "acao": "aprovar",
+        "descricao": "Aprovar",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/{ordemServico}/nota-produto",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/nota-produto",
+        "acao": "nota-produto",
+        "descricao": "Nota produto",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/link",
+        "acao": "link",
+        "descricao": "Link",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/orcamento",
+        "acao": "orcamento",
+        "descricao": "Orcamento",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/{ordemServico}/impressao",
+        "acao": "impressao",
+        "descricao": "Impressao",
+        "grava": false,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/{ordemServico}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "PUT",
+        "caminho": "ordens-servico/{ordemServico}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "PATCH",
+        "caminho": "ordens-servico/{ordemServico}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "GET",
+        "caminho": "ordens-servico/{ordemServico}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "ordens-servico",
+        "titulo": "Ordens de serviço",
+        "metodo": "POST",
+        "caminho": "ordens-servico/{ordemServico}/nfse",
+        "acao": "nfse",
+        "descricao": "Nfse",
+        "grava": true,
+        "parametros": [
+            "ordemServico"
+        ]
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "GET",
+        "caminho": "descontos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "GET",
+        "caminho": "descontos/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "GET",
+        "caminho": "descontos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "POST",
+        "caminho": "descontos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "GET",
+        "caminho": "descontos/{desconto}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "desconto"
+        ]
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "PUT",
+        "caminho": "descontos/{desconto}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "desconto"
+        ]
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "PATCH",
+        "caminho": "descontos/{desconto}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "desconto"
+        ]
+    },
+    {
+        "grupo": "descontos",
+        "titulo": "Descontos",
+        "metodo": "DELETE",
+        "caminho": "descontos/{desconto}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "desconto"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/{faturamento}/impressao",
+        "acao": "impressao",
+        "descricao": "Impressao",
+        "grava": false,
+        "parametros": [
+            "faturamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/kanban",
+        "acao": "kanban",
+        "descricao": "Kanban",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "POST",
+        "caminho": "faturamentos/{faturamento}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "faturamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "POST",
+        "caminho": "faturamentos/{faturamento}/pagamentos/{pagamento}/baixas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": [
+            "faturamento",
+            "pagamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "POST",
+        "caminho": "faturamentos/{faturamento}/pagamentos/{pagamento}/baixas/{baixa}/estorno",
+        "acao": "estorno",
+        "descricao": "Estorno",
+        "grava": true,
+        "parametros": [
+            "faturamento",
+            "pagamento",
+            "baixa"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "POST",
+        "caminho": "faturamentos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/{faturamento}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "faturamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "PUT",
+        "caminho": "faturamentos/{faturamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "faturamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "PATCH",
+        "caminho": "faturamentos/{faturamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "faturamento"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "GET",
+        "caminho": "faturamentos/{faturamento}/email/{modelo}",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "faturamento",
+            "modelo"
+        ]
+    },
+    {
+        "grupo": "faturamentos",
+        "titulo": "Financeiro: faturamentos e parcelas",
+        "metodo": "POST",
+        "caminho": "faturamentos/{faturamento}/email/{modelo}",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "faturamento",
+            "modelo"
+        ]
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "GET",
+        "caminho": "boletos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "GET",
+        "caminho": "boletos/pendentes",
+        "acao": "pendentes",
+        "descricao": "Pendentes",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "POST",
+        "caminho": "boletos/enviar",
+        "acao": "enviar",
+        "descricao": "Enviar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "POST",
+        "caminho": "boletos/nao-enviar",
+        "acao": "nao-enviar",
+        "descricao": "Nao enviar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "POST",
+        "caminho": "boletos/{boleto}/reabrir",
+        "acao": "reabrir",
+        "descricao": "Reabrir",
+        "grava": true,
+        "parametros": [
+            "boleto"
+        ]
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "POST",
+        "caminho": "boletos/{boleto}/cancelar",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "boleto"
+        ]
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "POST",
+        "caminho": "boletos/{boleto}/consultar",
+        "acao": "consultar",
+        "descricao": "Consultar",
+        "grava": true,
+        "parametros": [
+            "boleto"
+        ]
+    },
+    {
+        "grupo": "boletos",
+        "titulo": "Boletos e PIX",
+        "metodo": "GET",
+        "caminho": "boletos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "GET",
+        "caminho": "contas-bancarias/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "GET",
+        "caminho": "contas-bancarias",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "POST",
+        "caminho": "contas-bancarias",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "GET",
+        "caminho": "contas-bancarias/{contaBancaria}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "contaBancaria"
+        ]
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "PUT",
+        "caminho": "contas-bancarias/{contaBancaria}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contaBancaria"
+        ]
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "PATCH",
+        "caminho": "contas-bancarias/{contaBancaria}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contaBancaria"
+        ]
+    },
+    {
+        "grupo": "contas-bancarias",
+        "titulo": "Contas bancárias",
+        "metodo": "DELETE",
+        "caminho": "contas-bancarias/{contaBancaria}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "contaBancaria"
+        ]
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "GET",
+        "caminho": "caixas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "POST",
+        "caminho": "caixas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "GET",
+        "caminho": "caixas/{caixa}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "caixa"
+        ]
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "PUT",
+        "caminho": "caixas/{caixa}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "caixa"
+        ]
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "PATCH",
+        "caminho": "caixas/{caixa}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "caixa"
+        ]
+    },
+    {
+        "grupo": "caixas",
+        "titulo": "Caixas",
+        "metodo": "DELETE",
+        "caminho": "caixas/{caixa}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "caixa"
+        ]
+    },
+    {
+        "grupo": "fechamentos-caixa",
+        "titulo": "Fechamentos de caixa",
+        "metodo": "GET",
+        "caminho": "fechamentos-caixa/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "fechamentos-caixa",
+        "titulo": "Fechamentos de caixa",
+        "metodo": "GET",
+        "caminho": "fechamentos-caixa",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "fechamentos-caixa",
+        "titulo": "Fechamentos de caixa",
+        "metodo": "GET",
+        "caminho": "fechamentos-caixa/{abertura}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "abertura"
+        ]
+    },
+    {
+        "grupo": "fechamentos-caixa",
+        "titulo": "Fechamentos de caixa",
+        "metodo": "POST",
+        "caminho": "fechamentos-caixa/{abertura}/fechar",
+        "acao": "fechar",
+        "descricao": "Fechar",
+        "grava": true,
+        "parametros": [
+            "abertura"
+        ]
+    },
+    {
+        "grupo": "calendario",
+        "titulo": "Calendário financeiro",
+        "metodo": "GET",
+        "caminho": "calendario",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "indicadores",
+        "titulo": "Indicadores financeiros",
+        "metodo": "GET",
+        "caminho": "indicadores/financeiro",
+        "acao": "financeiro",
+        "descricao": "Financeiro",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": [
+            "documento"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}/{nota}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/{documento}/{nota}/transmitir",
+        "acao": "transmitir",
+        "descricao": "Transmitir",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/{documento}/{nota}/consultar",
+        "acao": "consultar",
+        "descricao": "Consultar",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/{documento}/{nota}/cancelar",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/{documento}/{nota}/corrigir",
+        "acao": "corrigir",
+        "descricao": "Corrigir",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}/{nota}/xml",
+        "acao": "xml",
+        "descricao": "Xml",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}/{nota}/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}/{nota}/cce/{evento}",
+        "acao": "cce",
+        "descricao": "Cce",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "nota",
+            "evento"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/nfse/{nota}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/nfse/{nota}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/{documento}/{nota}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/{documento}/{nota}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/nfse",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/nfse/{nota}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/nfse/{nota}/transmitir",
+        "acao": "transmitir",
+        "descricao": "Transmitir",
+        "grava": true,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/nfse/{nota}/consultar",
+        "acao": "consultar",
+        "descricao": "Consultar",
+        "grava": true,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "POST",
+        "caminho": "notas-fiscais/nfse/{nota}/cancelar",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/nfse/{nota}/xml",
+        "acao": "xml",
+        "descricao": "Xml",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-fiscais",
+        "titulo": "Notas fiscais (NF-e, NFC-e e NFS-e)",
+        "metodo": "GET",
+        "caminho": "notas-fiscais/nfse/{nota}/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "POST",
+        "caminho": "notas-recebidas/importar",
+        "acao": "importar",
+        "descricao": "Importar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "POST",
+        "caminho": "notas-recebidas/buscar-nfse",
+        "acao": "buscar-nfse",
+        "descricao": "Buscar nfse",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/{nota}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "POST",
+        "caminho": "notas-recebidas/{nota}/manifestar",
+        "acao": "manifestar",
+        "descricao": "Manifestar",
+        "grava": true,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "POST",
+        "caminho": "notas-recebidas/{nota}/itens/{item}/relacionar",
+        "acao": "relacionar",
+        "descricao": "Relacionar",
+        "grava": true,
+        "parametros": [
+            "nota",
+            "item"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/{nota}/compra",
+        "acao": "compra",
+        "descricao": "Compra",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/{nota}/devolucao",
+        "acao": "devolucao",
+        "descricao": "Devolucao",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/{nota}/xml",
+        "acao": "xml",
+        "descricao": "Xml",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "notas-recebidas",
+        "titulo": "Notas recebidas",
+        "metodo": "GET",
+        "caminho": "notas-recebidas/{nota}/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "nota"
+        ]
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "GET",
+        "caminho": "tributacoes/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "GET",
+        "caminho": "tributacoes",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "POST",
+        "caminho": "tributacoes",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "GET",
+        "caminho": "tributacoes/{tributacao}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "tributacao"
+        ]
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "PUT",
+        "caminho": "tributacoes/{tributacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "tributacao"
+        ]
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "PATCH",
+        "caminho": "tributacoes/{tributacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "tributacao"
+        ]
+    },
+    {
+        "grupo": "tributacoes",
+        "titulo": "Tributações",
+        "metodo": "DELETE",
+        "caminho": "tributacoes/{tributacao}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "tributacao"
+        ]
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "GET",
+        "caminho": "operacoes/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "GET",
+        "caminho": "operacoes",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "POST",
+        "caminho": "operacoes",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "GET",
+        "caminho": "operacoes/{operacao}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "operacao"
+        ]
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "PUT",
+        "caminho": "operacoes/{operacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "operacao"
+        ]
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "PATCH",
+        "caminho": "operacoes/{operacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "operacao"
+        ]
+    },
+    {
+        "grupo": "operacoes",
+        "titulo": "Operações fiscais",
+        "metodo": "DELETE",
+        "caminho": "operacoes/{operacao}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "operacao"
+        ]
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "GET",
+        "caminho": "classificacoes/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "POST",
+        "caminho": "classificacoes/{classificacao}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "classificacao"
+        ]
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "GET",
+        "caminho": "classificacoes",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "GET",
+        "caminho": "classificacoes/{classificacao}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "classificacao"
+        ]
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "PUT",
+        "caminho": "classificacoes/{classificacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "classificacao"
+        ]
+    },
+    {
+        "grupo": "classificacoes",
+        "titulo": "Classificações fiscais",
+        "metodo": "PATCH",
+        "caminho": "classificacoes/{classificacao}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "classificacao"
+        ]
+    },
+    {
+        "grupo": "relatorios",
+        "titulo": "Relatórios",
+        "metodo": "GET",
+        "caminho": "relatorios",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "relatorios",
+        "titulo": "Relatórios",
+        "metodo": "GET",
+        "caminho": "relatorios/{slug}/filtros",
+        "acao": "filtros",
+        "descricao": "Filtros",
+        "grava": false,
+        "parametros": [
+            "slug"
+        ]
+    },
+    {
+        "grupo": "relatorios",
+        "titulo": "Relatórios",
+        "metodo": "GET",
+        "caminho": "relatorios/{slug}",
+        "acao": "gerar",
+        "descricao": "Gerar",
+        "grava": false,
+        "parametros": [
+            "slug"
+        ]
+    },
+    {
+        "grupo": "dashboard",
+        "titulo": "Dashboard",
+        "metodo": "GET",
+        "caminho": "dashboard",
+        "acao": "dashboard",
+        "descricao": "Dashboard",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/inicio",
+        "acao": "inicio",
+        "descricao": "Inicio",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/produtos/{produto}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/produtos/{produto}/imagem",
+        "acao": "imagem",
+        "descricao": "Imagem",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/clientes",
+        "acao": "clientes",
+        "descricao": "Clientes",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/clientes/{cliente}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "cliente"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/vendas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/{venda}/cobranca",
+        "acao": "cobranca",
+        "descricao": "Cobranca",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/vendas/{venda}/cobranca",
+        "acao": "iniciar",
+        "descricao": "Iniciar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/vendas/{venda}/cobranca/{parcela}/confirmar",
+        "acao": "confirmar",
+        "descricao": "Confirmar",
+        "grava": true,
+        "parametros": [
+            "venda",
+            "parcela"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/vendas/{venda}/cobranca/cancelar-venda",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/ultima",
+        "acao": "ultima",
+        "descricao": "Ultima",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/{venda}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/{venda}/cupom",
+        "acao": "cupom",
+        "descricao": "Cupom",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/{venda}/notafiscal",
+        "acao": "nota",
+        "descricao": "Nota",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/vendas/{venda}/notafiscal",
+        "acao": "emitir",
+        "descricao": "Emitir",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/vendas/{venda}/notafiscal/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/caixa",
+        "acao": "caixa",
+        "descricao": "Caixa",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/caixa/abrir",
+        "acao": "abrir",
+        "descricao": "Abrir",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/caixa/fechar",
+        "acao": "fechar",
+        "descricao": "Fechar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/caixa/{tipo}",
+        "acao": "movimento",
+        "descricao": "Movimento",
+        "grava": true,
+        "parametros": [
+            "tipo"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/pedidos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/pedidos/{pedido}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/pedidos/{pedido}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/pedidos/{pedido}/cozinha",
+        "acao": "cozinha",
+        "descricao": "Cozinha",
+        "grava": false,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/cozinha",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/cozinha/{pedido}/avancar",
+        "acao": "avancar",
+        "descricao": "Avancar",
+        "grava": true,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/cozinha/{pedido}/item",
+        "acao": "item",
+        "descricao": "Item",
+        "grava": true,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/painel",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/entregas/mapa",
+        "acao": "mapa",
+        "descricao": "Mapa",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/painel/{pedido}/chamar",
+        "acao": "chamar",
+        "descricao": "Chamar",
+        "grava": true,
+        "parametros": [
+            "pedido"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/painel/voz/{chamada}",
+        "acao": "voz",
+        "descricao": "Voz",
+        "grava": false,
+        "parametros": [
+            "chamada"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/mesas/reservar",
+        "acao": "reservar",
+        "descricao": "Reservar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/mesas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/mesas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/mesas/buscar",
+        "acao": "buscar",
+        "descricao": "Buscar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/mesas/selecionar",
+        "acao": "selecionar",
+        "descricao": "Selecionar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/mesas/liberar",
+        "acao": "liberar",
+        "descricao": "Liberar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "PUT",
+        "caminho": "comanda/mesas/{id}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "id"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "DELETE",
+        "caminho": "comanda/mesas/{id}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "id"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/comandas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/comandas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "GET",
+        "caminho": "comanda/comandas/buscar",
+        "acao": "buscar",
+        "descricao": "Buscar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/comandas/selecionar",
+        "acao": "selecionar",
+        "descricao": "Selecionar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "POST",
+        "caminho": "comanda/comandas/liberar",
+        "acao": "liberar",
+        "descricao": "Liberar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "PUT",
+        "caminho": "comanda/comandas/{id}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "id"
+        ]
+    },
+    {
+        "grupo": "comanda",
+        "titulo": "Comanda",
+        "metodo": "DELETE",
+        "caminho": "comanda/comandas/{id}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "id"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/inicio",
+        "acao": "inicio",
+        "descricao": "Inicio",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/produtos",
+        "acao": "produtos",
+        "descricao": "Produtos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/produtos/codigo/{codigo}",
+        "acao": "codigo",
+        "descricao": "Codigo",
+        "grava": false,
+        "parametros": [
+            "codigo"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/clientes",
+        "acao": "clientes",
+        "descricao": "Clientes",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/vendas/{venda}/cobranca",
+        "acao": "cobranca",
+        "descricao": "Cobranca",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas/{venda}/cobranca",
+        "acao": "iniciar",
+        "descricao": "Iniciar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas/{venda}/cobranca/{parcela}/confirmar",
+        "acao": "confirmar",
+        "descricao": "Confirmar",
+        "grava": true,
+        "parametros": [
+            "venda",
+            "parcela"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas/{venda}/cobranca/cancelar-venda",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas/salvar",
+        "acao": "salvar",
+        "descricao": "Salvar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/abertas",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/abertas/{venda}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/vendas/ultima",
+        "acao": "ultima",
+        "descricao": "Ultima",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/comandas/buscar",
+        "acao": "buscar",
+        "descricao": "Buscar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/comandas/{venda}/receber",
+        "acao": "receber",
+        "descricao": "Receber",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/comandas/{venda}/salvar",
+        "acao": "salvar",
+        "descricao": "Salvar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/vendas/{venda}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/vendas/{venda}/notafiscal",
+        "acao": "nota",
+        "descricao": "Nota",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/vendas/{venda}/notafiscal/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/vendas/{venda}/notafiscal",
+        "acao": "emitir",
+        "descricao": "Emitir",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "GET",
+        "caminho": "pdv/caixa",
+        "acao": "caixa",
+        "descricao": "Caixa",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/caixa/abrir",
+        "acao": "abrir",
+        "descricao": "Abrir",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/caixa/fechar",
+        "acao": "fechar",
+        "descricao": "Fechar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "pdv",
+        "titulo": "PDV (frente de caixa)",
+        "metodo": "POST",
+        "caminho": "pdv/caixa/{tipo}",
+        "acao": "movimento",
+        "descricao": "Movimento",
+        "grava": true,
+        "parametros": [
+            "tipo"
+        ]
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "GET",
+        "caminho": "entregador/entregas",
+        "acao": "entregas",
+        "descricao": "Entregas",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "POST",
+        "caminho": "entregador/posicao",
+        "acao": "posicao",
+        "descricao": "Posicao",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "POST",
+        "caminho": "entregador/entregas/{codigo}/posicao",
+        "acao": "posicao",
+        "descricao": "Posicao",
+        "grava": true,
+        "parametros": [
+            "codigo"
+        ]
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "POST",
+        "caminho": "entregador/entregas/{codigo}/{acao}",
+        "acao": "acao",
+        "descricao": "Acao",
+        "grava": true,
+        "parametros": [
+            "codigo",
+            "acao"
+        ]
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "GET",
+        "caminho": "entregador/relatorio",
+        "acao": "relatorio",
+        "descricao": "Relatorio",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "POST",
+        "caminho": "entregador/rota/previa",
+        "acao": "previa",
+        "descricao": "Previa",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "entregador",
+        "titulo": "App do entregador",
+        "metodo": "POST",
+        "caminho": "entregador/rota/iniciar",
+        "acao": "iniciar",
+        "descricao": "Iniciar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "GET",
+        "caminho": "autoatendimento/inicio",
+        "acao": "inicio",
+        "descricao": "Inicio",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "GET",
+        "caminho": "autoatendimento/produtos/{produto}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "GET",
+        "caminho": "autoatendimento/produtos/{produto}/imagem",
+        "acao": "imagem",
+        "descricao": "Imagem",
+        "grava": false,
+        "parametros": [
+            "produto"
+        ]
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "POST",
+        "caminho": "autoatendimento/pedidos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "GET",
+        "caminho": "autoatendimento/pedidos/{venda}/cupom",
+        "acao": "cupom",
+        "descricao": "Cupom",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "POST",
+        "caminho": "autoatendimento/pedidos/{venda}/cobranca",
+        "acao": "iniciar",
+        "descricao": "Iniciar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "GET",
+        "caminho": "autoatendimento/pedidos/{venda}/cobranca",
+        "acao": "cobranca",
+        "descricao": "Cobranca",
+        "grava": false,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "autoatendimento",
+        "titulo": "Autoatendimento (totem)",
+        "metodo": "DELETE",
+        "caminho": "autoatendimento/pedidos/{venda}/cobranca",
+        "acao": "cancelar",
+        "descricao": "Cancelar",
+        "grava": true,
+        "parametros": [
+            "venda"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/notafiscal",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/notafiscal",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "POST",
+        "caminho": "configuracoes/notafiscal/emitente",
+        "acao": "emitente",
+        "descricao": "Emitente",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/notafiscal/backup",
+        "acao": "backup",
+        "descricao": "Backup",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/notafiscal/certificado",
+        "acao": "certificado",
+        "descricao": "Certificado",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/pdv",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/pdv",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/comanda",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/comanda",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/autoatendimento",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/autoatendimento",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/comanda/impressao",
+        "acao": "impressao",
+        "descricao": "Impressao",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/comanda/impressao",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/cardapio/geral",
+        "acao": "geral",
+        "descricao": "Geral",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/cardapio/geral",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/cardapio/layout",
+        "acao": "layout",
+        "descricao": "Layout",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "POST",
+        "caminho": "configuracoes/cardapio/layout",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/cardapio/layout/imagem",
+        "acao": "imagem",
+        "descricao": "Imagem",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/cardapio/horarios",
+        "acao": "horarios",
+        "descricao": "Horarios",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "POST",
+        "caminho": "configuracoes/cardapio/horarios",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/cardapio/horarios/{horario}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "horario"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "DELETE",
+        "caminho": "configuracoes/cardapio/horarios/{horario}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "horario"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/entrega",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/entrega",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/entrega/bairros",
+        "acao": "bairros",
+        "descricao": "Bairros",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "POST",
+        "caminho": "configuracoes/entrega/bairros",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/entrega/bairros/{bairro}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "bairro"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/entrega/bairros/{bairro}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "bairro"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "DELETE",
+        "caminho": "configuracoes/entrega/bairros/{bairro}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "bairro"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/entrega/cidades",
+        "acao": "cidades",
+        "descricao": "Cidades",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/entrega/cidades/{codigo}/bairros",
+        "acao": "bairros",
+        "descricao": "Bairros",
+        "grava": false,
+        "parametros": [
+            "codigo"
+        ]
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "POST",
+        "caminho": "configuracoes/entrega/bairros/importar",
+        "acao": "importar",
+        "descricao": "Importar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/sistema",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/sistema",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "GET",
+        "caminho": "configuracoes/ordem-servico",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "configuracoes",
+        "titulo": "Configurações",
+        "metodo": "PUT",
+        "caminho": "configuracoes/ordem-servico",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "GET",
+        "caminho": "usuarios",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "POST",
+        "caminho": "usuarios",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "GET",
+        "caminho": "usuarios/{usuario}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "usuario"
+        ]
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "PUT",
+        "caminho": "usuarios/{usuario}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "usuario"
+        ]
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "PATCH",
+        "caminho": "usuarios/{usuario}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "usuario"
+        ]
+    },
+    {
+        "grupo": "usuarios",
+        "titulo": "Usuários",
+        "metodo": "DELETE",
+        "caminho": "usuarios/{usuario}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "usuario"
+        ]
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "GET",
+        "caminho": "cargos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "GET",
+        "caminho": "cargos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "POST",
+        "caminho": "cargos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "GET",
+        "caminho": "cargos/{cargo}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "cargo"
+        ]
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "PUT",
+        "caminho": "cargos/{cargo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "cargo"
+        ]
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "PATCH",
+        "caminho": "cargos/{cargo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "cargo"
+        ]
+    },
+    {
+        "grupo": "cargos",
+        "titulo": "Cargos",
+        "metodo": "DELETE",
+        "caminho": "cargos/{cargo}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "cargo"
+        ]
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "GET",
+        "caminho": "status/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "GET",
+        "caminho": "status",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "POST",
+        "caminho": "status",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "GET",
+        "caminho": "status/{status}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "status"
+        ]
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "PUT",
+        "caminho": "status/{status}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "status"
+        ]
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "PATCH",
+        "caminho": "status/{status}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "status"
+        ]
+    },
+    {
+        "grupo": "status",
+        "titulo": "Status",
+        "metodo": "DELETE",
+        "caminho": "status/{status}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "status"
+        ]
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "GET",
+        "caminho": "formas-pagamento",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "POST",
+        "caminho": "formas-pagamento",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "GET",
+        "caminho": "formas-pagamento/{formaPagamento}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "formaPagamento"
+        ]
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "PUT",
+        "caminho": "formas-pagamento/{formaPagamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "formaPagamento"
+        ]
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "PATCH",
+        "caminho": "formas-pagamento/{formaPagamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "formaPagamento"
+        ]
+    },
+    {
+        "grupo": "formas-pagamento",
+        "titulo": "Formas de pagamento",
+        "metodo": "DELETE",
+        "caminho": "formas-pagamento/{formaPagamento}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "formaPagamento"
+        ]
+    },
+    {
+        "grupo": "empresa",
+        "titulo": "Empresa",
+        "metodo": "GET",
+        "caminho": "empresa",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "empresa",
+        "titulo": "Empresa",
+        "metodo": "PUT",
+        "caminho": "empresa",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "empresa",
+        "titulo": "Empresa",
+        "metodo": "GET",
+        "caminho": "empresa/resumo",
+        "acao": "resumo",
+        "descricao": "Resumo",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "empresa",
+        "titulo": "Empresa",
+        "metodo": "GET",
+        "caminho": "empresa/logo",
+        "acao": "logo",
+        "descricao": "Logo",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/situacao",
+        "acao": "situacao",
+        "descricao": "Situacao",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/frete/{provedor}",
+        "acao": "frete",
+        "descricao": "Frete",
+        "grava": false,
+        "parametros": [
+            "provedor"
+        ]
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/frete/{provedor}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "provedor"
+        ]
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/tray",
+        "acao": "tray",
+        "descricao": "Tray",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/tray/conectar",
+        "acao": "conectar",
+        "descricao": "Conectar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "DELETE",
+        "caminho": "integracoes/tray",
+        "acao": "desconectar",
+        "descricao": "Desconectar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/tray/produtos",
+        "acao": "produtos",
+        "descricao": "Produtos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/tray/produtos",
+        "acao": "publicar",
+        "descricao": "Publicar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/tray/sincronizar",
+        "acao": "sincronizar",
+        "descricao": "Sincronizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/tray/pedidos",
+        "acao": "pedidos",
+        "descricao": "Pedidos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/tray/pedidos",
+        "acao": "salvar",
+        "descricao": "Salvar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/tray/pedidos/conferir",
+        "acao": "conferir",
+        "descricao": "Conferir",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/orbizz",
+        "acao": "orbizz",
+        "descricao": "Orbizz",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/orbizz",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/orbizz/testar",
+        "acao": "testar",
+        "descricao": "Testar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/orbizz/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/orbizz/qrcode",
+        "acao": "qrcode",
+        "descricao": "Qrcode",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/orbizz/qrcode",
+        "acao": "atual",
+        "descricao": "Atual",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/pagbank",
+        "acao": "pagbank",
+        "descricao": "Pagbank",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/pagbank",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/pagbank/testar",
+        "acao": "testar",
+        "descricao": "Testar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/stone",
+        "acao": "stone",
+        "descricao": "Stone",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/stone",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/stone/testar",
+        "acao": "testar",
+        "descricao": "Testar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/mercado-pago",
+        "acao": "mercado-pago",
+        "descricao": "Mercado pago",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/mercado-pago",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/mercado-pago/testar",
+        "acao": "testar",
+        "descricao": "Testar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/mercado-pago/maquininhas",
+        "acao": "maquininhas",
+        "descricao": "Maquininhas",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/bancos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "GET",
+        "caminho": "integracoes/bancos/{banco}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "banco"
+        ]
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "PUT",
+        "caminho": "integracoes/bancos/{banco}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "banco"
+        ]
+    },
+    {
+        "grupo": "integracoes",
+        "titulo": "Integrações",
+        "metodo": "POST",
+        "caminho": "integracoes/bancos/{banco}/credenciais/{tipo}",
+        "acao": "credenciais",
+        "descricao": "Credenciais",
+        "grava": true,
+        "parametros": [
+            "banco",
+            "tipo"
+        ]
+    },
+    {
+        "grupo": "anexos",
+        "titulo": "Anexos",
+        "metodo": "GET",
+        "caminho": "anexos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "anexos",
+        "titulo": "Anexos",
+        "metodo": "POST",
+        "caminho": "anexos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "anexos",
+        "titulo": "Anexos",
+        "metodo": "PUT",
+        "caminho": "anexos/{anexo}/principal",
+        "acao": "principal",
+        "descricao": "Principal",
+        "grava": true,
+        "parametros": [
+            "anexo"
+        ]
+    },
+    {
+        "grupo": "anexos",
+        "titulo": "Anexos",
+        "metodo": "DELETE",
+        "caminho": "anexos/{anexo}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "anexo"
+        ]
+    },
+    {
+        "grupo": "anexos",
+        "titulo": "Anexos",
+        "metodo": "GET",
+        "caminho": "anexos/{anexo}/arquivo",
+        "acao": "arquivo",
+        "descricao": "Arquivo",
+        "grava": false,
+        "parametros": [
+            "anexo"
+        ]
+    },
+    {
+        "grupo": "auditoria",
+        "titulo": "Auditoria",
+        "metodo": "GET",
+        "caminho": "auditoria/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "auditoria",
+        "titulo": "Auditoria",
+        "metodo": "GET",
+        "caminho": "auditoria",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "auditoria",
+        "titulo": "Auditoria",
+        "metodo": "GET",
+        "caminho": "auditoria/{auditoria}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "auditoria"
+        ]
+    },
+    {
+        "grupo": "notificacoes",
+        "titulo": "Notificações",
+        "metodo": "GET",
+        "caminho": "notificacoes",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notificacoes",
+        "titulo": "Notificações",
+        "metodo": "GET",
+        "caminho": "notificacoes/resumo",
+        "acao": "resumo",
+        "descricao": "Resumo",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "notificacoes",
+        "titulo": "Notificações",
+        "metodo": "POST",
+        "caminho": "notificacoes/lidas",
+        "acao": "lidas",
+        "descricao": "Lidas",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "notificacoes",
+        "titulo": "Notificações",
+        "metodo": "POST",
+        "caminho": "notificacoes/{notificacao}/lida",
+        "acao": "lida",
+        "descricao": "Lida",
+        "grava": true,
+        "parametros": [
+            "notificacao"
+        ]
+    },
+    {
+        "grupo": "consultas",
+        "titulo": "Consultas (CEP e CNPJ)",
+        "metodo": "GET",
+        "caminho": "consultas/cep/{cep}",
+        "acao": "cep",
+        "descricao": "Cep",
+        "grava": false,
+        "parametros": [
+            "cep"
+        ]
+    },
+    {
+        "grupo": "consultas",
+        "titulo": "Consultas (CEP e CNPJ)",
+        "metodo": "GET",
+        "caminho": "consultas/cnpj/{cnpj}",
+        "acao": "cnpj",
+        "descricao": "Cnpj",
+        "grava": false,
+        "parametros": [
+            "cnpj"
+        ]
+    },
+    {
+        "grupo": "ferramentas",
+        "titulo": "Ferramentas",
+        "metodo": "GET",
+        "caminho": "ferramentas/balanca",
+        "acao": "balanca",
+        "descricao": "Balanca",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ferramentas",
+        "titulo": "Ferramentas",
+        "metodo": "GET",
+        "caminho": "ferramentas/balanca/arquivo/{modelo}",
+        "acao": "arquivo",
+        "descricao": "Arquivo",
+        "grava": false,
+        "parametros": [
+            "modelo"
+        ]
+    },
+    {
+        "grupo": "ferramentas",
+        "titulo": "Ferramentas",
+        "metodo": "GET",
+        "caminho": "ferramentas/etiquetas/produtos",
+        "acao": "produtos",
+        "descricao": "Produtos",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ajuda",
+        "titulo": "Ajuda",
+        "metodo": "GET",
+        "caminho": "ajuda/faq",
+        "acao": "faq",
+        "descricao": "Faq",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ajuda",
+        "titulo": "Ajuda",
+        "metodo": "GET",
+        "caminho": "ajuda/perguntas",
+        "acao": "perguntas",
+        "descricao": "Perguntas",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "ajuda",
+        "titulo": "Ajuda",
+        "metodo": "POST",
+        "caminho": "ajuda/iris",
+        "acao": "iris",
+        "descricao": "Iris",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "eu",
+        "titulo": "Usuário do token",
+        "metodo": "GET",
+        "caminho": "eu",
+        "acao": "eu",
+        "descricao": "Eu",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "menu",
+        "titulo": "Menu e permissões",
+        "metodo": "GET",
+        "caminho": "menu",
+        "acao": "menu",
+        "descricao": "Menu",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "menu",
+        "titulo": "Menu e permissões",
+        "metodo": "POST",
+        "caminho": "menu/acessos",
+        "acao": "acessos",
+        "descricao": "Acessos",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "menu",
+        "titulo": "Menu e permissões",
+        "metodo": "GET",
+        "caminho": "permissoes",
+        "acao": "permissoes",
+        "descricao": "Permissoes",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "GET",
+        "caminho": "cupons",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "POST",
+        "caminho": "cupons",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "GET",
+        "caminho": "cupons/{cupom}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "cupom"
+        ]
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "PUT",
+        "caminho": "cupons/{cupom}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "cupom"
+        ]
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "PATCH",
+        "caminho": "cupons/{cupom}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "cupom"
+        ]
+    },
+    {
+        "grupo": "cupons",
+        "titulo": "Cupons de desconto",
+        "metodo": "DELETE",
+        "caminho": "cupons/{cupom}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "cupom"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "GET",
+        "caminho": "contratos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "GET",
+        "caminho": "contratos/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "POST",
+        "caminho": "contratos/{contrato}/status",
+        "acao": "status",
+        "descricao": "Status",
+        "grava": true,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "GET",
+        "caminho": "contratos/{contrato}/documento",
+        "acao": "documento",
+        "descricao": "Documento",
+        "grava": false,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "POST",
+        "caminho": "contratos/{contrato}/assinatura",
+        "acao": "assinatura",
+        "descricao": "Assinatura",
+        "grava": true,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "DELETE",
+        "caminho": "contratos/{contrato}/assinantes/{assinante}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "contrato",
+            "assinante"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "GET",
+        "caminho": "contratos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "POST",
+        "caminho": "contratos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "GET",
+        "caminho": "contratos/{contrato}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "PUT",
+        "caminho": "contratos/{contrato}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "PATCH",
+        "caminho": "contratos/{contrato}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos",
+        "titulo": "Contratos",
+        "metodo": "DELETE",
+        "caminho": "contratos/{contrato}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "contrato"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "POST",
+        "caminho": "contratos-modelos/gerar-com-ia",
+        "acao": "gerar-com-ia",
+        "descricao": "Gerar com ia",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "POST",
+        "caminho": "contratos-modelos/{contratoModelo}/arquivo",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "GET",
+        "caminho": "contratos-modelos/{contratoModelo}/arquivo",
+        "acao": "arquivo",
+        "descricao": "Arquivo",
+        "grava": false,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "GET",
+        "caminho": "contratos-modelos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "POST",
+        "caminho": "contratos-modelos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "GET",
+        "caminho": "contratos-modelos/{contratoModelo}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "PUT",
+        "caminho": "contratos-modelos/{contratoModelo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "PATCH",
+        "caminho": "contratos-modelos/{contratoModelo}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "contratos-modelos",
+        "titulo": "Modelos de contrato",
+        "metodo": "DELETE",
+        "caminho": "contratos-modelos/{contratoModelo}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "contratoModelo"
+        ]
+    },
+    {
+        "grupo": "assinaturas",
+        "titulo": "Assinaturas (contratos)",
+        "metodo": "POST",
+        "caminho": "assinaturas",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "assinaturas",
+        "titulo": "Assinaturas (contratos)",
+        "metodo": "GET",
+        "caminho": "assinaturas/{assinatura}/imagem",
+        "acao": "imagem",
+        "descricao": "Imagem",
+        "grava": false,
+        "parametros": [
+            "assinatura"
+        ]
+    },
+    {
+        "grupo": "assinaturas",
+        "titulo": "Assinaturas (contratos)",
+        "metodo": "DELETE",
+        "caminho": "assinaturas/{assinatura}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "assinatura"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "GET",
+        "caminho": "equipamentos/opcoes",
+        "acao": "opcoes",
+        "descricao": "Opções do formulário",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "GET",
+        "caminho": "equipamentos/opcoes/{lista}",
+        "acao": "opcao",
+        "descricao": "Opcao",
+        "grava": false,
+        "parametros": [
+            "lista"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "GET",
+        "caminho": "equipamentos/{equipamento}/historico",
+        "acao": "historico",
+        "descricao": "Historico",
+        "grava": false,
+        "parametros": [
+            "equipamento"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "GET",
+        "caminho": "equipamentos",
+        "acao": "index",
+        "descricao": "Listar",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "POST",
+        "caminho": "equipamentos",
+        "acao": "store",
+        "descricao": "Cadastrar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "GET",
+        "caminho": "equipamentos/{equipamento}",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": [
+            "equipamento"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "PUT",
+        "caminho": "equipamentos/{equipamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "equipamento"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "PATCH",
+        "caminho": "equipamentos/{equipamento}",
+        "acao": "update",
+        "descricao": "Atualizar",
+        "grava": true,
+        "parametros": [
+            "equipamento"
+        ]
+    },
+    {
+        "grupo": "equipamentos",
+        "titulo": "Equipamentos (ordens de serviço)",
+        "metodo": "DELETE",
+        "caminho": "equipamentos/{equipamento}",
+        "acao": "destroy",
+        "descricao": "Remover",
+        "grava": true,
+        "parametros": [
+            "equipamento"
+        ]
+    },
+    {
+        "grupo": "pagamentos",
+        "titulo": "Pagamentos (recibos por e-mail)",
+        "metodo": "GET",
+        "caminho": "pagamentos/{pagamento}/{modelo}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": false,
+        "parametros": [
+            "pagamento",
+            "modelo"
+        ]
+    },
+    {
+        "grupo": "pagamentos",
+        "titulo": "Pagamentos (recibos por e-mail)",
+        "metodo": "POST",
+        "caminho": "pagamentos/{pagamento}/{modelo}/email",
+        "acao": "email",
+        "descricao": "Email",
+        "grava": true,
+        "parametros": [
+            "pagamento",
+            "modelo"
+        ]
+    },
+    {
+        "grupo": "whatsapp",
+        "titulo": "WhatsApp",
+        "metodo": "GET",
+        "caminho": "whatsapp/{documento}/{id}",
+        "acao": "destino",
+        "descricao": "Destino",
+        "grava": false,
+        "parametros": [
+            "documento",
+            "id"
+        ]
+    },
+    {
+        "grupo": "whatsapp",
+        "titulo": "WhatsApp",
+        "metodo": "POST",
+        "caminho": "whatsapp/{documento}/{id}",
+        "acao": "enviar",
+        "descricao": "Enviar",
+        "grava": true,
+        "parametros": [
+            "documento",
+            "id"
+        ]
+    },
+    {
+        "grupo": "iris",
+        "titulo": "Íris (assistente)",
+        "metodo": "POST",
+        "caminho": "iris/mensagem",
+        "acao": "mensagem",
+        "descricao": "Mensagem",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "iris",
+        "titulo": "Íris (assistente)",
+        "metodo": "GET",
+        "caminho": "iris/voz",
+        "acao": "voz",
+        "descricao": "Voz",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "iris",
+        "titulo": "Íris (assistente)",
+        "metodo": "POST",
+        "caminho": "iris/voz",
+        "acao": "transcrever",
+        "descricao": "Transcrever",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "documentos-legais",
+        "titulo": "Documentos legais",
+        "metodo": "GET",
+        "caminho": "documentos-legais/{tipo}/pdf",
+        "acao": "pdf",
+        "descricao": "Pdf",
+        "grava": false,
+        "parametros": [
+            "tipo"
+        ]
+    },
+    {
+        "grupo": "primeiro-acesso",
+        "titulo": "Primeiro acesso",
+        "metodo": "GET",
+        "caminho": "primeiro-acesso",
+        "acao": "show",
+        "descricao": "Consultar um",
+        "grava": false,
+        "parametros": []
+    },
+    {
+        "grupo": "primeiro-acesso",
+        "titulo": "Primeiro acesso",
+        "metodo": "POST",
+        "caminho": "primeiro-acesso/aceitar",
+        "acao": "aceitar",
+        "descricao": "Aceitar",
+        "grava": true,
+        "parametros": []
+    },
+    {
+        "grupo": "primeiro-acesso",
+        "titulo": "Primeiro acesso",
+        "metodo": "POST",
+        "caminho": "primeiro-acesso/configurar",
+        "acao": "configurar",
+        "descricao": "Configurar",
+        "grava": true,
+        "parametros": []
+    }
+]
