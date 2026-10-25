@@ -8,7 +8,7 @@ Referência completa da API (campos de cada recurso, exemplos e respostas): **ht
 ## Instalação
 
 ```bash
-npm install @ebitsistemas/gestor-integrado-sdk
+npm install @ebitsistemas/gestor-sdk
 ```
 
 Ou instale direto desta pasta (`npm install ../Gestor.SdkNode`) ou do repositório.
@@ -21,7 +21,7 @@ Ou instale direto desta pasta (`npm install ../Gestor.SdkNode`) ou do repositór
    qual empresa é.
 
 ```js
-import { Cliente } from '@ebitsistemas/gestor-integrado-sdk';
+import { Cliente } from '@ebitsistemas/gestor-sdk';
 
 const cliente = new Cliente({ token: process.env.GESTOR_TOKEN });
 
@@ -88,7 +88,7 @@ Toda resposta de erro vira um erro com a mensagem em português, pronta para mos
 Todos estendem `ErroDaApi` (`status`, `erros`, `resposta`).
 
 ```js
-import { Validacao } from '@ebitsistemas/gestor-integrado-sdk';
+import { Validacao } from '@ebitsistemas/gestor-sdk';
 
 try {
     await cliente.unidades.cadastrar({ nome: 'Caixa' });

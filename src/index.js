@@ -1,6 +1,6 @@
 // SDK da API do Gestor Integrado. Sem dependências: usa o fetch do Node 18+.
 //
-//   import { Cliente } from '@ebitsistemas/gestor-integrado-sdk';
+//   import { Cliente } from '@ebitsistemas/gestor-sdk';
 //   const cliente = new Cliente({ token: process.env.GESTOR_TOKEN });
 //   for await (const produto of cliente.produtos.todos({ busca: 'arroz' })) { ... }
 //   const venda = await cliente.vendas.consultar(15);
@@ -184,7 +184,7 @@ export class Cliente {
             url += (url.includes('?') ? '&' : '?') + consulta.toString();
         }
         const corpo = metodo === 'GET' || (metodo === 'DELETE' && !comDados) ? undefined : JSON.stringify(dados || {});
-        const cabecalhos = { Authorization: `Bearer ${this.token}`, Accept: 'application/json', 'User-Agent': `gestor-integrado-sdk-node/${VERSAO}` };
+        const cabecalhos = { Authorization: `Bearer ${this.token}`, Accept: 'application/json', 'User-Agent': `gestor-sdk-node/${VERSAO}` };
         if (corpo !== undefined) cabecalhos['Content-Type'] = 'application/json';
 
         for (let tentativa = 1; ; tentativa += 1) {

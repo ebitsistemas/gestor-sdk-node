@@ -1,5 +1,5 @@
 {
-  "name": "@ebitsistemas/gestor-integrado-sdk",
+  "name": "@ebitsistemas/gestor-sdk",
   "version": "1.0.1",
   "description": "SDK em Node.js da API do Gestor Integrado (cadastros, vendas, compras, ordens de serviço, financeiro, estoque e notas fiscais).",
   "type": "module",
