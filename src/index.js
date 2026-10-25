@@ -12,7 +12,7 @@ import { ErroDaApi, ErroDeConexao, LimiteDeChamadas } from './erros.js';
 
 export * from './erros.js';
 
-export const VERSAO = '1.0.1';
+export const VERSAO = '1.1.0';
 
 /** Endereço central da API, o mesmo para todas as empresas: o token já diz de qual empresa é. */
 export const ENDERECO = 'https://hubintegrado.com';
